@@ -21,7 +21,7 @@ jobs:
       - name: Setup Dependencies
         run: |
           sudo apt-get install libpcap-dev
-          rm -rf *_*.txt
+          rm -rf *_subdomains.txt.txt
 
       - name: Setting up ProjectDiscovery tools 
         env:
@@ -47,7 +47,7 @@ jobs:
 
       - name: Running SubFinder for passive DNS enumeration
         run: |
-          sudo rm -rf *_*.txt
+          #sudo rm -rf *_*.txt
           subfinder -dL domains.txt -config config/subfinder-config.yaml | dnsx -silent -o active_subdomains.txt
         shell: bash
 
