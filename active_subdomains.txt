@@ -1064,3 +1064,6 @@ testingaccess1.dev.cloud.mattermost.com
 www.mattermost.com
 url3922.link.mattermost.com
 logs.public-use1.dataeng.internal.mattermost.com
+szscredit.com
+mail.szscredit.com
+www.szscredit.com
