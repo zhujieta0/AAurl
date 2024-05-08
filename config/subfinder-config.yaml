@@ -52,7 +52,6 @@ all-sources:
     - shodan
     - sitedossier
     - sonarsearch
-    - sublist3r
     - threatbook
     - threatcrowd
     - threatminer
@@ -70,7 +69,6 @@ recursive:
     - passivetotal
     - securitytrails
     - sonarsearch
-    - sublist3r
     - virustotal
 bevigil: []
 binaryedge: []
