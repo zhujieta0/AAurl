@@ -24,7 +24,6 @@ sources:
     - robtex
     - securitytrails
     - shodan
-    - sublist3r
     - threatcrowd
     - threatminer
     - virustotal
