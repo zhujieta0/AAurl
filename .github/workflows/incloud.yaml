@@ -21,7 +21,7 @@ jobs:
       - name: Setup Dependencies
         run: |
           sudo apt-get install libpcap-dev
-          rm -rf *_subdomains.txt.txt
+          sudo rm -rf *_subdomains.txt
 
       - name: Setting up ProjectDiscovery tools 
         env:
